@@ -1,0 +1,21 @@
+$kind: http-request
+url: "{{local}}/api/logout"
+method: POST
+headers:
+  Accept: application/json
+  Content-Type: application/json
+  Authorization: ""
+body:
+  type: json
+  content: "{\r
+
+    \  \"email\": \"test@example.com\",\r
+
+    \  \"password\": \"test@example.com\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: 23|zj27kpr8a4LBdqG8IcuhZliDVtYE6RYh0IwNaUaF3d213c21
+order: 2000

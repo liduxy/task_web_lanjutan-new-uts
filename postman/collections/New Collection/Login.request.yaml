@@ -1,0 +1,16 @@
+$kind: http-request
+url: "{{local}}/api/login"
+method: POST
+headers:
+  Accept: application/json
+  Content-Type: application/json
+body:
+  type: json
+  content: "{\r
+
+    \  \"email\": \"qaqa@gmail.com\",\r
+
+    \  \"password\": \"qaqa@gmail.com\"\r
+
+    }"
+order: 5000

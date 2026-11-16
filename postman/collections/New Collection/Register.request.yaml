@@ -1,0 +1,20 @@
+$kind: http-request
+url: "{{local}}/api/register"
+method: POST
+headers:
+  Accept: application/json
+  Content-Type: application/json
+body:
+  type: json
+  content: "{\r
+
+    \  \"name\": \"Ini Akun Test Ya\",\r
+
+    \  \"email\": \"test@example.com\",\r
+
+    \  \"password\": \"test@example.com\",\r
+
+    \   \"password_confirmation\": \"test@example.com\"\r
+
+    }"
+order: 1000

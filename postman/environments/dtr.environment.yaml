@@ -1,0 +1,7 @@
+name: dtr
+values:
+  - key: local
+    value: 'http://localhost:8000'
+  - key: host
+    value: ''
+color: 0
